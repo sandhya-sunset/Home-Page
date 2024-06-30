@@ -1,0 +1,94 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Login-Container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 10px;
+    background-color: antiquewhite;
+    margin-top: 100px;
+    width: fit-content;
+    height: fit-content;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px;
+
+}
+.detail{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.detail h1{
+    font-size: 30px;
+    color: green;
+    
+}
+.detail p{
+    font-size: 20px;
+    color: green;
+}
+.input-field input{
+    height: 30px;
+    width: 90%;
+    border-radius: 4px;
+    border: 1px solid green;
+}
+.input-field input::placeholder{
+    color: green;
+}
+.checkbox{
+    display: flex;
+}
+.checkbox p[p]{
+    display: flex;
+    text-align: end;
+    margin-right: 30px;
+}
+.verify{
+    height: 40px;
+    width: 90%;
+    border-radius: 4px;
+    border: 1px  black;
+    gap: 10px;
+    
+     
+    
+}
+.verify p{
+    text-align: center;
+}
+.verify button {
+    width: 95%;
+    height: 40px;
+    padding: 7px 40%;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+img{
+    height: 600px;
+    width: 500px;
+}
+
+
+
+
+
+
